@@ -1,0 +1,23 @@
+Title: Apfel (Rot)
+
+----
+
+Price: 9999.99
+
+----
+
+Stock: 9999
+
+----
+
+Discount: 2
+
+----
+
+Description: Dies ein nicht ganz so schöner roter Apfel !
+
+----
+
+Productimage:
+
+- a-single-whole-red-apple-on-white.jpg

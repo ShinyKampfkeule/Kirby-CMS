@@ -1,0 +1,19 @@
+Title: Erdbeeren (500 Gramm)
+
+----
+
+Price: 3.5
+
+----
+
+Stock: 50
+
+----
+
+Description: Hier gibt es eine 500 Gramm Schale Erdbeeren.
+
+----
+
+Productimage:
+
+- strawberries-3089148_1920.jpg

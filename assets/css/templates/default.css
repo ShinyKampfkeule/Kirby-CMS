@@ -1,0 +1,230 @@
+.article-content {
+    position: relative;
+    top: 6.5em;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.article-button {
+    height: 25em;
+    background-color: white;
+    margin-top: .5em;
+    border: none;
+    position: relative;
+    width: 100%;
+}
+
+.button-name-small,
+.button-name-big {
+    position: absolute;
+    right: 1em;
+}
+
+.button-name-small {
+    font-size: 4.5em;
+}
+
+.button-name-big {
+    font-size: 5em;
+}
+
+.button-picture {
+    height: 65%;
+    width: 50%;
+    align-items: end;
+    margin-left: 1em;
+    padding-bottom: 1em;
+    position: absolute;
+    bottom: 0;
+}
+
+.button-price {
+    z-index: 1;
+    font-size: 3em;
+    position: absolute;
+    bottom: .5em;
+    right: 1em;
+}
+
+@media only screen and ( max-device-width: 569px ) and ( max-width: 569px ) {
+
+    .button-name-small,
+    .button-name-big {
+        top: 0;
+    }
+
+}
+
+@media only screen and ( min-device-width: 570px ) and ( min-width: 570px ) {
+
+    .article-button {
+        width: 48%;
+        margin-left: .6em;
+        margin-right: .6em;
+    }
+
+    .button-name-small,
+    .button-name-big {
+        right: 1em;
+    }
+
+    .button-name-small {
+        font-size: 2.2em;
+        bottom: 3em;
+    }
+
+    .button-name-big {
+        font-size: 3em;
+        bottom: 2em;
+    }
+
+    .button-price {
+        z-index: 1;
+        font-size: 3em;
+        position: absolute;
+        bottom: .5em;
+        right: 1em;
+    }
+
+    .button-picture {
+        width: 60%;
+        align-items: start;
+        margin-top: 1em;
+        top: 0;
+    }
+    
+}
+
+@media only screen and ( min-device-width: 768px ) and ( min-width: 768px ) {
+
+    .article-button {
+        width: 32%;
+        height: 20em;
+        margin-left: .4em;
+        margin-right: .4em;
+    }
+
+    .button-name-small {
+        font-size: 1.5em;
+    }
+
+    .button-name-big {
+        font-size: 2em;
+        bottom: 2em;
+    }
+
+    .button-price {
+        font-size: 2em;
+    }
+
+    .button-picture {
+        width: 90%;
+        margin-left: .7em;
+    }
+
+}
+
+@media only screen and ( min-device-width: 992px ) and ( min-width: 992px ) {
+
+    .article-content {
+        top: 3.5em;
+    }
+
+    .article-button {
+        width: 24%;
+        height: 17em;
+        margin-left: .3em;
+        margin-right: .3em;
+    }
+
+    .button-name-big {
+        font-size: 1.8em;
+    }
+
+    .button-name-small {
+        font-size: 1.1em;
+        bottom: 3.5em;
+    }
+
+    .button-picture {
+        width: 80%;
+        height: 60%;
+        margin-left: 8%;
+    }
+}
+
+@media only screen and ( min-device-width: 1200px ) and ( min-width: 1200px ) {
+
+    .article-button {
+        width: 19%;
+        height: 16em;
+        margin-left: .4em;
+        margin-right: .3em;
+    }
+
+    .button-name-big {
+        font-size: 1.5em;
+        bottom: 1.8em;
+    }
+
+    .button-name-small {
+        font-size: 1.2em;
+        bottom: 2.5em;
+    }
+
+    .button-price {
+        font-size: 1.5em;
+    }
+
+    .button-picture {
+        width: 90%;
+        margin-left: .3em;
+    }
+}
+
+@media only screen and ( min-device-width: 1400px ) and ( min-width: 1400px ) {
+    
+    .article-button {
+        width: 15%;
+        height: 15em;
+        margin-left: .7em;
+        margin-right: .7em;
+    }
+    
+    .button-name-big {
+        font-size: 1.2em;
+        bottom: 2.1em;
+    }
+
+    .button-name-small {
+        font-size: .9em;
+        bottom: 3em;
+    }
+}
+
+@media only screen and ( min-device-width: 1700px ) and ( min-width: 1700px ) {
+    
+    .article-button {
+        width: 13%;
+        height: 19em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    .button-name-big {
+        font-size: 1.2em;
+        bottom: 2.1em;
+    }
+
+    .button-name-small {
+        font-size: 1.2em;
+        bottom: 2.2em;
+        right: 1.1em;
+    }
+
+    .button-picture {
+        width: 94%;
+        margin-left: .2em;
+    }
+}

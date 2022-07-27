@@ -1,0 +1,17 @@
+Title: Wasser (Pfirsich)
+
+----
+
+Price: 99999.99
+
+----
+
+Stock: 9999
+
+----
+
+Description: Das ist Wasser mit Pfirsichgeschmack
+
+----
+
+Productimage: 

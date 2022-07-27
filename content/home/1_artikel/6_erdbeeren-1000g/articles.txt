@@ -1,0 +1,23 @@
+Title: Erdbeeren (1000 Gramm)
+
+----
+
+Price: 7
+
+----
+
+Stock: 25
+
+----
+
+Discount: 0.25
+
+----
+
+Description: Hier gibt es eine 1000 Gramm (1kg) Schale Erdbeeren.
+
+----
+
+Productimage:
+
+- strawberries-3089148_1920.jpg
