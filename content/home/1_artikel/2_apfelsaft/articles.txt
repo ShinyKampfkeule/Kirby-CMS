@@ -1,0 +1,13 @@
+Title: Apfelsaft
+
+----
+
+Price: 99999.99
+
+----
+
+Stock: 9999
+
+----
+
+Description: Dies ist ein noch schönerer grüner Apfelsaft aus unseren schönen grünen Äpfeln.

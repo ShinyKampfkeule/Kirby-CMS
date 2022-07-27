@@ -1,0 +1,23 @@
+Title: Apfel
+
+----
+
+Price: 9999.99
+
+----
+
+Stock: 9999
+
+----
+
+Discount: 1
+
+----
+
+Description: Dies ein schöner grüner Apfel !
+
+----
+
+Productimage:
+
+- green-apple-with-leaves.jpg

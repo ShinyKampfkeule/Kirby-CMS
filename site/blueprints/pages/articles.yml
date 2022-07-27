@@ -1,0 +1,70 @@
+title: Artikel
+
+tabs:
+
+  erforderlich:
+    label: Pflichtangaben
+    icon: text
+    columns:
+
+      notwendig:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              price:
+                label: Preis
+                type: number
+                after: "€"
+                required: true
+                min: 0
+                default: 9999
+              stock:
+                label: Bestand
+                type: number
+                required: true
+      sidebar:
+        width: 1/3
+        sections:
+          pages:
+            type: pages
+          files:
+            type: files
+  
+  zusätzlich:
+    label: Optionale Angaben
+    icon: text
+    columns:
+
+      optional:
+        width: 2/3
+        sections:
+          input:
+            type: fields
+            fields:
+              discount:
+                label: Rabatt
+                type: number
+                after: "%"
+              description:
+                label: Beschreibung
+                type: textarea
+                size: medium
+              productimage:
+                label: Produktbild
+                type: files
+                multiple: false
+                query: model.images
+                layout: cards
+                image:
+                  ratio: 1/1
+                  cover: true
+
+      sidebar:
+        width: 1/3
+        sections:
+          pages:
+            type: pages
+          files:
+            type: files

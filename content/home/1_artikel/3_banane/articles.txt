@@ -1,0 +1,17 @@
+Title: Banane
+
+----
+
+Price: 4.2
+
+----
+
+Stock: 1337
+
+----
+
+Description: 
+
+----
+
+Productimage: 
