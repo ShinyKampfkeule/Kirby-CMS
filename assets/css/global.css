@@ -1,10 +1,14 @@
 :root {
     --color-main-100: rgb(242, 242, 242);
     --color-main-800: rgb(27, 73, 166);
+
+    --color-accent-500: rgb(200, 200, 200);
+    --color-accent-300: rgb(255, 48, 48);
 }
 
 body {
     background-color: var(--color-main-100);
+    width: 100%;
 }
 
 .flex {
@@ -19,6 +23,17 @@ body {
     padding-left: 1em;
     position: fixed;
     width: 100%;
+    z-index: 1;
+}
+
+.head_page {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: .5em;
 }
 
 .profile-tab {
@@ -39,11 +54,47 @@ body {
     height: var(--profile-size);
 }
 
+
+@media only screen and (max-device-width: 570px) {
+
+    .head_page {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and ( min-device-width: 570px ) {
+
+    .head_page {
+        font-size: 1.3em;
+    }
+    
+}
+
+@media only screen and ( min-device-width: 768px ) {
+
+
+
+}
+
 @media only screen and ( min-device-width: 992px ) {
 
     .head_container {
         font-size: 1em;
     }
 
+}
+
+@media only screen and ( min-device-width: 1200px ) {
+
+
+}
+
+@media only screen and ( min-device-width: 1400px ) {
+    
+
+}
+
+@media only screen and ( min-device-width: 1700px ) {
+    
 
 }

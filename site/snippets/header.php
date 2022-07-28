@@ -1,5 +1,6 @@
 <?php
     $user = $kirby->user();
+    $page_title = $site -> content() -> title();
 
     if ( $user !== NULL ) {
         $user_avatar = $user -> avatar() -> url();
@@ -17,9 +18,9 @@
     </head>
     <body>
         <header class="head_container">
-            <h1>
-                <?= $page -> title() ?>
-            </h1>
+            <button class="head_page" onClick="location.href = '/';">
+                <?= $page_title ?>
+            </button>
             <a href="http://localhost/home/profil" class="profile-tab flex">
                 <picture class="profile-picture">
                     <img src="<?= $user_avatar ?>" class="profile-image">

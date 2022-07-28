@@ -1,0 +1,117 @@
+.profile-container {
+    position: relative;
+    top: 3.5em;
+    width: 100%;
+    align-items: center;
+    height: 90%;
+    flex-direction: column;
+}
+
+.login {
+    justify-content: center;
+}
+
+.input-form {
+    width: 80%;
+    height: 40em;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-accent-500);
+    border-radius: 2em;
+}
+
+.input {
+    width: 80%;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-label {
+    margin-right: 1em;
+    font-size: 4em;
+}
+
+.input-input {
+    font-size: 3em;
+    padding-left: .5em;
+}
+
+.button-container {
+    width: 50%;
+}
+
+.button {
+    background-color: var(--color-main-100);
+    border: none;
+    font-size: 3em;
+    width: 100%;
+    height: 2em;
+    border-radius: 1em;
+}
+
+.alert {
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    color: var(--color-accent-300);
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.user-image {
+    margin-top: 5em;
+    width: 20em;
+}
+
+.user-name {
+    font-size: 4em;
+    margin-top: .5em;
+}
+
+.user-role {
+    font-size: 3em;
+    margin-top: .25em;
+}
+
+.logout {
+    font-size: 3em;
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (max-device-width: 570px) {
+
+}
+
+@media only screen and ( min-device-width: 570px ) {
+
+    
+}
+
+@media only screen and ( min-device-width: 768px ) {
+
+
+}
+
+@media only screen and ( min-device-width: 992px ) {
+
+
+}
+
+@media only screen and ( min-device-width: 1200px ) {
+
+
+}
+
+@media only screen and ( min-device-width: 1400px ) {
+    
+
+}
+
+@media only screen and ( min-device-width: 1700px ) {
+    
+
+}
