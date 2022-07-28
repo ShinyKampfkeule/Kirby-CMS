@@ -14,6 +14,10 @@
               }
             ]
         ],
-        "debug" => true
-    ];
+        "debug" => true,
+        'api' => [ 
+          'allowInsecure' => true,
+          'basicAuth' => true
+        ]
+      ];
 ?>

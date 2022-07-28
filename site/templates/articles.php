@@ -6,7 +6,7 @@
     ] ) );
 
     $title = $page->title();
-    $base_price = number_format( $page->price()->value(), 2);
+    $base_price = $page->price()->value();
     $stock = $page->stock();
     $description = $page->description();
 
